@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/Optional.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/Portability.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/CPortability.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/Traits.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/Utility.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/dayoakinkuowo/Projects/clients/realm/app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h

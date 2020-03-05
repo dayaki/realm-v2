@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native-track-player/react-native-track-player.podspec b/node_modules/react-native-track-player/react-native-track-player.podspec
+index fc322e6..c652906 100644
+--- a/node_modules/react-native-track-player/react-native-track-player.podspec
++++ b/node_modules/react-native-track-player/react-native-track-player.podspec
+@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
+   s.version      = package["version"]
+   s.summary      = package['description']
+   s.license      = package['license']
++  s.swift_version = '5.0'
+   
+   s.author       = "David Chavez"
+   s.homepage     = package['repository']['url']

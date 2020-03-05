@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "54d2d318296f76614dd8a1ec999b05a4"
+build_time: [1581269341, 802319000]
+inputs:
+  "/Users/dayoakinkuowo/Projects/clients/realm/app/node_modules/lottie-react-native/src/ios/LottieReactNative/AnimationViewManagerModule.swift": [1580689768, 934000000]
+  "/Users/dayoakinkuowo/Projects/clients/realm/app/node_modules/lottie-react-native/src/ios/LottieReactNative/ContainerView.swift": [1580689768, 934000000]

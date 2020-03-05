@@ -1,0 +1,184 @@
+{
+  "centers": [
+    {
+      "id": 2,
+      "name": "Abuja Centre",
+      "pastor": "Ayo & Faith Aiyedogbon",
+      "address": "Plot 622, Opp America Int’l Sch. Off Area 1 Round About, Durumi, Abuja",
+      "city": "Durumi",
+      "state": "Abuja, F.C.T",
+      "image": "http://realmofglory.org/_assets/centres/abuja.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/abuja.jpg",
+      "lat": "9.0222388",
+      "lon": "7.4571972",
+      "phone": ["+2348033116443", "+2348058533286"],
+      "email": "en.abuja@yahoo.com",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        },
+        {
+          "type": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Port-Harcourt Centre",
+      "pastor": "Tunde & Dunni Stephen",
+      "address": "Along Ogbogoro Road, off Iwofe Road, St. John B/Stop, Port-harcourt, Rivers State",
+      "city": "Port-Harcourt",
+      "state": "Rivers State",
+      "image": "http://realmofglory.org/_assets/centres/harcourt.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/port-harcourt.jpg",
+      "lat": "4.8280054",
+      "lon": "6.9524596",
+      "phone": ["+2348033024353", "+2348060184653"],
+      "email": "tunstep@yahoo.com",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        },
+        {
+          "type": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Surulere Centre",
+      "pastor": "Kayode & Wunmi Ajala",
+      "address": "147B Ogunlana Drive, Beside GT Bank, Masha Roundabout, Surulere, Lagos",
+      "city": "Surulere",
+      "state": "Lagos State",
+      "image": "http://realmofglory.org/_assets/centres/surulere.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/surulere.jpg",
+      "lat": "6.5017102",
+      "lon": "3.3511616",
+      "phone": ["+2348135516712"],
+      "email": "realmsurulere@gmail.com",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        },
+        {
+          "type": "Wednesday",
+          "time": "6:00 AM"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Uyo Centre",
+      "pastor": "Kenneth & Tina Umeh.",
+      "address": "13, Obio Ekong Street, off Udoette/Itu road, Uyo, Akwa Ibom",
+      "city": "Uyo",
+      "state": "Akwa Ibom State",
+      "image": "http://realmofglory.org/_assets/centres/uyo.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/uyo.jpg",
+      "lat": "5.044056",
+      "lon": "7.9148445",
+      "phone": ["+2347038198822", "+2348139744203"],
+      "email": "umekenneth@yahoo.com",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        },
+        {
+          "type": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Owerri Centre",
+      "pastor": "Iyke & Joyce Kenneth",
+      "address": "Ibe Street, Opposite Diamond Bank, Ama wire, Orji. Owerri, Imo State",
+      "city": "Owerri",
+      "state": "Imo State",
+      "image": "http://realmofglory.org/_assets/centres/owerri.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/owerri.jpg",
+      "lat": "5.5096913",
+      "lon": "7.0496976",
+      "phone": ["+2348032542671", "+2347035337802"],
+      "email": "realmofgloryowerri@gmail.com",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        },
+        {
+          "type": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Every Nation Ghana",
+      "pastor": "Laud & Agnes Allotey",
+      "address": "2nd Floor Fezeeka House, Danquah Circle Osu, Accra, Ghana",
+      "city": "Osu",
+      "state": "Accra, Ghana",
+      "image": "http://realmofglory.org/_assets/centres/ghana.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/ghana.jpg",
+      "lat": "5.566840",
+      "lon": "-0.181130",
+      "phone": ["+233200099471"],
+      "email": "",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Every Nation Midrand",
+      "pastor": "Eric and Uba Bapetel",
+      "address": "31 De Winnaar St, Midrand 1685, Johannesburg, South Africa",
+      "city": "Midrand",
+      "state": "Johannesburg, South Africa",
+      "image": "http://realmofglory.org/_assets/centres/southafrica.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/southafrica.jpg",
+      "lat": "-25.996070",
+      "lon": "28.125710",
+      "phone": ["+27113125838"],
+      "email": "",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Compassion Global Ministries",
+      "pastor": "Temitope & Irene Agbana",
+      "address": "Krabbendijksestraat 255, Pendrecht, Slinge Rotterdam, The Netherlands.",
+      "city": "Pendrecht",
+      "state": "Rotterdam",
+      "image": "http://realmofglory.org/_assets/centres/holland.jpg",
+      "poster": "http://realmofglory.org/_assets/centres/poster/holland.jpg",
+      "lat": "51.872790",
+      "lon": "4.465600",
+      "phone": ["+31636483549"],
+      "email": "",
+      "services": [
+        {
+          "type": "Sunday",
+          "time": "10:00 AM"
+        }
+      ]
+    }
+  ]
+}

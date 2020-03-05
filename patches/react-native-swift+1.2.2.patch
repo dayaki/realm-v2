@@ -1,0 +1,28 @@
+diff --git a/node_modules/react-native-swift/package.json b/node_modules/react-native-swift/package.json
+index 3c4aeb9..674f783 100644
+--- a/node_modules/react-native-swift/package.json
++++ b/node_modules/react-native-swift/package.json
+@@ -6,11 +6,6 @@
+     "glob": "^7.1.2",
+     "@raydeck/xcode": "^2.2.0"
+   },
+-  "rnpm": {
+-    "commands": {
+-      "postlink": "node node_modules/react-native-swift/bin/postlink.js"
+-    }
+-  },
+   "author": {
+     "name": "Ray Deck",
+     "email": "ray@raydeck.com",
+diff --git a/node_modules/react-native-swift/react-native.config.js b/node_modules/react-native-swift/react-native.config.js
+new file mode 100644
+index 0000000..8cb11bf
+--- /dev/null
++++ b/node_modules/react-native-swift/react-native.config.js
+@@ -0,0 +1,5 @@
++module.exports = {
++    hooks: {
++      postlink: "node node_modules/react-native-swift/bin/postlink.js"
++    }
++  };
+\ No newline at end of file

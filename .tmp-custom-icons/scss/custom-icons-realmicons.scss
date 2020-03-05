@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "custom-icons-realmicons";
+  src: url('../assets/fonts/custom-icons-realmicons.eot');
+  src: url('../assets/fonts/custom-icons-realmicons.eot?#iefix') format('eot'),
+  url('../assets/fonts/custom-icons-realmicons.woff2') format('woff2'),
+  url('../assets/fonts/custom-icons-realmicons.woff') format('woff'),
+  url('../assets/fonts/custom-icons-realmicons.ttf') format('truetype'),
+  url('../assets/fonts/custom-icons-realmicons.svg#custom-icons-realmicons') format('svg');
+}
+
+%realmicons {
+  font-family: "custom-icons-realmicons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+
+@function realmicons-char($filename) {
+  $char: "";
+  
+    @if $filename == calendar {
+      $char: "\EA01";
+    }
+  
+    @if $filename == edit-note {
+      $char: "\EA02";
+    }
+  
+    @if $filename == fast-backward {
+      $char: "\EA03";
+    }
+  
+    @if $filename == fast-forward {
+      $char: "\EA04";
+    }
+  
+    @if $filename == garbage {
+      $char: "\EA05";
+    }
+  
+    @if $filename == music {
+      $char: "\EA06";
+    }
+  
+    @if $filename == mute {
+      $char: "\EA07";
+    }
+  
+    @if $filename == new-note {
+      $char: "\EA08";
+    }
+  
+    @if $filename == notepad {
+      $char: "\EA09";
+    }
+  
+    @if $filename == pause-btn {
+      $char: "\EA0A";
+    }
+  
+    @if $filename == pause {
+      $char: "\EA0B";
+    }
+  
+    @if $filename == play-btn {
+      $char: "\EA0C";
+    }
+  
+    @if $filename == play {
+      $char: "\EA0D";
+    }
+  
+    @if $filename == playlist-blk {
+      $char: "\EA0E";
+    }
+  
+    @if $filename == save {
+      $char: "\EA0F";
+    }
+  
+    @if $filename == speaker {
+      $char: "\EA10";
+    }
+  
+    @if $filename == user {
+      $char: "\EA11";
+    }
+  
+    @if $filename == wallet {
+      $char: "\EA12";
+    }
+  
+  @return $char;
+}
+
+@mixin realmicons($filename) {
+  &:before {
+    @extend %realmicons;
+    content: realmicons-char($filename);
+  }
+}
+
+
+  custom-icon.set-realmicons.icon-calendar {
+    @include realmicons(calendar);
+  }
+
+  custom-icon.set-realmicons.icon-edit-note {
+    @include realmicons(edit-note);
+  }
+
+  custom-icon.set-realmicons.icon-fast-backward {
+    @include realmicons(fast-backward);
+  }
+
+  custom-icon.set-realmicons.icon-fast-forward {
+    @include realmicons(fast-forward);
+  }
+
+  custom-icon.set-realmicons.icon-garbage {
+    @include realmicons(garbage);
+  }
+
+  custom-icon.set-realmicons.icon-music {
+    @include realmicons(music);
+  }
+
+  custom-icon.set-realmicons.icon-mute {
+    @include realmicons(mute);
+  }
+
+  custom-icon.set-realmicons.icon-new-note {
+    @include realmicons(new-note);
+  }
+
+  custom-icon.set-realmicons.icon-notepad {
+    @include realmicons(notepad);
+  }
+
+  custom-icon.set-realmicons.icon-pause-btn {
+    @include realmicons(pause-btn);
+  }
+
+  custom-icon.set-realmicons.icon-pause {
+    @include realmicons(pause);
+  }
+
+  custom-icon.set-realmicons.icon-play-btn {
+    @include realmicons(play-btn);
+  }
+
+  custom-icon.set-realmicons.icon-play {
+    @include realmicons(play);
+  }
+
+  custom-icon.set-realmicons.icon-playlist-blk {
+    @include realmicons(playlist-blk);
+  }
+
+  custom-icon.set-realmicons.icon-save {
+    @include realmicons(save);
+  }
+
+  custom-icon.set-realmicons.icon-speaker {
+    @include realmicons(speaker);
+  }
+
+  custom-icon.set-realmicons.icon-user {
+    @include realmicons(user);
+  }
+
+  custom-icon.set-realmicons.icon-wallet {
+    @include realmicons(wallet);
+  }
+

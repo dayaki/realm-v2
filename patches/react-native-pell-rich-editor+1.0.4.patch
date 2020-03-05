@@ -1,0 +1,44 @@
+diff --git a/node_modules/react-native-pell-rich-editor/src/RichEditor.js b/node_modules/react-native-pell-rich-editor/src/RichEditor.js
+index 4a2ecdd..e186b4d 100755
+--- a/node_modules/react-native-pell-rich-editor/src/RichEditor.js
++++ b/node_modules/react-native-pell-rich-editor/src/RichEditor.js
+@@ -32,7 +32,7 @@ export default class RichTextEditor extends Component {
+         this.focusListeners = [];
+     }
+ 
+-    componentWillMount() {
++    UNSAFE_componentWillMount() {
+         // if (PlatformIOS) {
+         //     this.keyboardEventListeners = [
+         //         Keyboard.addListener('keyboardWillShow', this._onKeyboardWillShow),
+@@ -46,7 +46,7 @@ export default class RichTextEditor extends Component {
+         // }
+     }
+ 
+-    componentWillUnmount() {
++    UNSAFE_componentWillUnmount() {
+         this.intervalHeight && clearInterval(this.intervalHeight);
+         // this.keyboardEventListeners.forEach((eventListener) => eventListener.remove());
+     }
+diff --git a/node_modules/react-native-pell-rich-editor/src/RichToolbar.js b/node_modules/react-native-pell-rich-editor/src/RichToolbar.js
+index 0d408de..55c157c 100755
+--- a/node_modules/react-native-pell-rich-editor/src/RichToolbar.js
++++ b/node_modules/react-native-pell-rich-editor/src/RichToolbar.js
+@@ -59,7 +59,7 @@ export default class RichToolbar extends Component {
+   //---- new-e-----
+ 
+   // componentDidReceiveProps(newProps) {
+-  componentWillReceiveProps(newProps) {
++    UNSAFE_componentWillReceiveProps(newProps) {
+     const actions = newProps.actions ? newProps.actions : defaultActions;
+     this.setState({
+       actions,
+@@ -71,7 +71,7 @@ export default class RichToolbar extends Component {
+     return actions.map((action) => {return {action, selected: selectedItems.includes(action)};});
+   }
+ 
+-  componentDidMount() {
++  UNSAFE_componentDidMount() {
+     const editor = this.props.getEditor();
+     if (!editor) {
+       throw new Error('Toolbar has no editor!');
